@@ -17,7 +17,7 @@ const MovieCard = ({movie}) => {
       <div className='movie-poster'>
         <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />  
         <div className="movie-overlay">
-            <button className={`favorite-btn ${favorite? "active" : ""}`} onClick={onFavoriteClick}>🤍</button>     
+            <button className={`favorite-btn ${favorite? "active" : ""}`} onClick={onFavoriteClick}>{favorite ? "❤️" : "🤍"}</button>     
         </div>
       </div>
  

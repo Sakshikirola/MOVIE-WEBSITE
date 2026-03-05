@@ -9,8 +9,12 @@
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
+} 
+
+:root::-webkit-scrollbar{
+  display: none; 
 }
 
 *{
@@ -270,7 +274,7 @@ button:focus-visible {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.favorite-btn.active {
+.favorite-btn.active{  
   color: #ff4757;
 } 
 
